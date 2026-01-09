@@ -3,9 +3,9 @@
 ## Instalación
 Primero instalamos el servicio FTP en el sistema para que pueda aceptar conexiones. Los pasos son:
  1. Descargar FileZilla Server desde su web oficial.
-  ![](https://github.com/JavierMoralesSimon/filezillaInstalacionYConfiguracion/blob/main/Capturas/1.1.png)
+ ![](https://github.com/JavierMoralesSimon/filezillaInstalacionYConfiguracion/blob/main/Capturas/1.1.png)
  2. Si el archivo descargado es el .deb, damos doble click en él y lo instalamos.
-  ![](https://github.com/JavierMoralesSimon/filezillaInstalacionYConfiguracion/blob/main/Capturas/1.1.png)
+ ![](https://github.com/JavierMoralesSimon/filezillaInstalacionYConfiguracion/blob/main/Capturas/1.1.png)
 
 ## Consola de administración
 Accedemos a la consola de administración la cual es una herramienta gráfica para administrar el servidor. Los pasos son:
