@@ -22,7 +22,7 @@ Definir en qué interfaces de red aceptará conexiones el servidor. Esto se real
 ### Inicio automático del servicio:
 Hacer que el servidor arranque solo al iniciar Ubuntu mediante el comando `sudo systemctl enable filezilla-server`.
 
-### Reicnicio del servidor
+### Reinicio del servidor
 Reiniciar el servidor para que todos los cambios se apliquen mediante el comando `sudo systemctl restart filezilla-server`.
 
 ## Servicio en funcionamiento
