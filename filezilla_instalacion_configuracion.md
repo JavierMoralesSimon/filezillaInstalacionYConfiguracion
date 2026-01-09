@@ -11,19 +11,16 @@ Accedemos a la consola de administración la cual es una herramienta gráfica pa
  2. Si nos pide conexión, dejamos el host y el puerto por defecto e introducimos una contraseña.
 
 ## Configuración
-  * Puerto de escucha:
+### Puerto de escucha:
+Definir por qué puerto se conectarán los clientes FTP. Los pasos son:
+ 1. Ir a "Server - Configure".
+ 2. En "Server listeners - Port" ponemos el puerto 21 que es el típico.
 
-    Definir por qué puerto se conectarán los clientes FTP. Los pasos son:
-    1. Ir a "Server - Configure".
-    2. En "Server listeners - Port" ponemos el puerto 21 que es el típico.
+### Dirección IP:
+Definir en qué interfaces de red aceptará conexiones el servidor. Esto se realiza en el mismo sitio que la configuración del puerto de escucha pero en el recuadro "Address". Ahí ponemos "0.0.0.0" para que escuche en todas las IPs. Una vez hechas estas dos primeras configuraciones, aplicamos cambios y aceptamos.
 
-  * Dirección IP:
-
-    Definir en qué interfaces de red aceptará conexiones el servidor. Esto se realiza en el mismo sitio que la configuración del puerto de escucha pero en el recuadro "Address". Ahí ponemos "0.0.0.0" para que escuche en todas las IPs. Una vez hechas estas dos primeras configuraciones, aplicamos cambios y aceptamos.
-
-  * Inicio automático del servicio:
-
-    Hacer que el servidor arranque solo al iniciar Ubuntu mediante el comando `sudo systemctl enable filezilla-server`.
+### Inicio automático del servicio:
+Hacer que el servidor arranque solo al iniciar Ubuntu mediante el comando `sudo systemctl enable filezilla-server`.
 
 Reiniciar el servidor para que todos los cambios se apliquen mediante el comando `sudo systemctl restart filezilla-server`.
 
