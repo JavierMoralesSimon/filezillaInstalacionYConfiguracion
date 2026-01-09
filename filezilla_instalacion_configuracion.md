@@ -14,8 +14,8 @@ Accedemos a la consola de administración la cual es una herramienta gráfica pa
   * Puerto de escucha:
 
     Definir por qué puerto se conectarán los clientes FTP. Los pasos son:
-     1. Ir a "Server - Configure".
-     2. En "Server listeners - Port" ponemos el puerto 21 que es el típico.
+    1. Ir a "Server - Configure".
+    2. En "Server listeners - Port" ponemos el puerto 21 que es el típico.
 
   * Dirección IP:
 
