@@ -16,8 +16,11 @@ Accedemos a la consola de administración la cual es una herramienta gráfica pa
     Definir por qué puerto se conectarán los clientes FTP. Los pasos son:
      * Ir a "Server - Configure".
      * En "Server listeners - Port" ponemos el puerto 21 que es el típico.
+
   * Dirección IP:
-    Definir en qué interfaces de red aceptará conexiones el servidor. Esto se realiza en el mismo sitio que la configuración del puerto de escucha pero en el recuadro Address. Ahí ponemos "0.0.0.0" para que escuche en todas las IPs. Una vez hecho estas dos primeras configuraciones, aplicamos cambios y aceptamos.
+
+    Definir en qué interfaces de red aceptará conexiones el servidor. Esto se realiza en el mismo sitio que la configuración del puerto de escucha pero en el recuadro "Address". Ahí ponemos "0.0.0.0" para que escuche en todas las IPs. Una vez hechas estas dos primeras configuraciones, aplicamos cambios y aceptamos.
+
   * Inicio automático del servicio:
     Hacer que el servidor arranque solo al iniciar Ubuntu mediante el comando `sudo systemctl enable filezilla-server`.
 
